@@ -1,4 +1,5 @@
 import Member from "../../models/member.js";
+const router = Router();
 router.post("/goes", async (req, res) => {
   try {
     const member = Member(req.body);
