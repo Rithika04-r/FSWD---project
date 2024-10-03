@@ -18,3 +18,4 @@ router.get("/get1", async (req, res) => {
     console.log(error);
   }
 });
+export default router;
