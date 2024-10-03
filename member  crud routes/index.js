@@ -16,3 +16,4 @@ router.get("/get2", async (req, res) => {
     res.send(error);
   }
 });
+export default router;
